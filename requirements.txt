@@ -1,0 +1,19 @@
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# TRL for base training utilities (optional, fallback to Trainer if not available)
+trl>=0.7.0
+
+# Utilities
+packaging>=21.0
+numpy>=1.21.0
+
+# Profiling
+profiling-decorator
+
+# Optional but commonly used
+wandb>=0.15.0  # for experiment tracking
+tensorboard>=2.10.0  # alternative logging
